@@ -1,9 +1,11 @@
 <div align=center>
-
-<p></p> 
-
 </div>
 
 ```lua
-print("hi")
+function ts(y)
+    print(y)
+    return y
+end
+
+ts(ts(ts(ts(x))))
 ```
