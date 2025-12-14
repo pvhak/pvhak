@@ -16,12 +16,28 @@ function ts(y)
     local j = i
     local k = j
     local l = k
-    return l
+    local m = l
+    local n = m
+    local o = n
+    local p = o
+    local q = p
+    local r = q
+    local s = r
+    local t = s
+    local u = t
+    local v = u
+    local w = v
+    local x = w
+    local y2 = x
+    local z = y2
+    return z
 end
 
-local one = ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts("Hi?")))))))))))))
-local two = ts(ts(ts(ts(ts(ts(ts(ts(one)))))))))
-local three = ts(ts(ts(ts(ts(ts(ts(two))))))))
-local four = ts(ts(ts(ts(three)))))
-ts(four)
+local one = ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts("Hi?"))))))))))))))))))))))
+local two = ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(one)))))))))))))))
+local three = ts(ts(ts(ts(ts(ts(ts(ts(ts(ts(two))))))))))
+local four = ts(ts(ts(ts(ts(ts(three))))))
+local five = ts(ts(ts(ts(four))))
+
+ts(five)
 ```
